@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import {useState} from 'react'
-import {auth} from './fb'
+import {auth} from '../fb'
 export default function login() {
     const [email,setEmail] = useState('')
     const [password,setPassword] = useState('')

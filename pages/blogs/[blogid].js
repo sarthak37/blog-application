@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import {db} from '../fb'
+import {db} from '../../fb'
 import {useRouter} from 'next/router'
 
 export default function blogpage({blog,user,allComments}) {

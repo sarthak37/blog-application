@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import Head from 'next/head'
-import NavBar from './components/NavBar'
-import {auth} from './fb'
+import NavBar from '../components/NavBar'
+import {auth} from '../fb'
 import {useState,useEffect} from 'react'
 
 function MyApp({ Component, pageProps }) {
